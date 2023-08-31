@@ -29,3 +29,13 @@ major_2 = df["Undergraduate Major"].loc[index_2]
 print(index_2, major_2)
 starting_salary_2 = df["Starting Median Salary"].loc[index_2]
 print(starting_salary_2)
+
+
+#3
+# Which college major has the lowest mid-career salary and how much can people expect to earn with this degree?
+index_3 = df["Mid-Career Median Salary"].idxmin()
+major_3 = df["Undergraduate Major"].loc[index_3]
+print(index_3, major_3)
+mid_career_salary = df["Mid-Career Median Salary"].loc[index_2]
+print(mid_career_salary)
+
