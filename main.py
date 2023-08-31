@@ -20,3 +20,12 @@ print(index_1, major_1)
 # How much do graduates with this major earn?
 starting_salary_1 = df["Starting Median Salary"].loc[index_1]
 print(starting_salary_1)
+
+
+#2
+# Which college major has the lowest starting salary and how much do graduates earn after university?
+index_2 = df["Starting Median Salary"].idxmin()
+major_2 = df["Undergraduate Major"].loc[index_2]
+print(index_2, major_2)
+starting_salary_2 = df["Starting Median Salary"].loc[index_2]
+print(starting_salary_2)
